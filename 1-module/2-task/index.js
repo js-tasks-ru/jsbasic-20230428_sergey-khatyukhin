@@ -11,7 +11,8 @@ function print(text) {
  */
 function isValid(name) {
   // ваш код...
-  if (typeof name === "string") {if (name.length < 4 || name === '' || name.includes(' ')) {return false;} else {return true;}} else {return false;}
+  //if (typeof name === "string") {if (name.length < 4 || name === '' || name.includes(' ')) {return false;} else {return true;}} else {return false;}
+  return typeof name ==="string" && name.length >= 4 &&  name != '' &&  !name.includes(' ');
 }
 
 function sayHello() {
