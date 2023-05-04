@@ -3,8 +3,8 @@ function ucFirst(str) {
   if (str === '') {
     return '';
   } else {
-    Big = str[0].toUpperCase();
-    end = str.substring(1);
+    let Big = str[0].toUpperCase();
+    let end = str.substring(1);
     return Big + end;
 }
 }
